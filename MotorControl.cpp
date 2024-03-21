@@ -21,3 +21,7 @@ void MotorCtrl::update(){
 void MotorCtrl::setSpeed(float rpm){
     this->motor.set_target_speed(rpm);
 }
+
+float MotorCtrl::getMotorSpeed(){
+    return this->enc.rpm;
+}

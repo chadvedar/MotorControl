@@ -19,6 +19,8 @@ class MotorCtrl{
         void start();
         void update();
         void setSpeed(float rpm);        
+
+        float getMotorSpeed();
 };
 
 #endif
